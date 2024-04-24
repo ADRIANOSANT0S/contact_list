@@ -25,6 +25,9 @@ const Form = () => {
         email
       })
     )
+    setName('')
+    setPhone('')
+    setEmail('')
   }
   return (
     <S.FormContainer onSubmit={handleSubmit}>
